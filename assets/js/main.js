@@ -226,4 +226,18 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * GSAP animations
+   */
+  function gsapInit() {
+    gsap.from('.hero h2', {
+      duration: 1,
+      y: 50,
+      opacity: 0,
+      ease: 'power3.out',
+      delay: 0.5
+    });
+  }
+  window.addEventListener('load', gsapInit);
+
 })();

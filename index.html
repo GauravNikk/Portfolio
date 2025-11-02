@@ -239,8 +239,8 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>About Me</h2>
         <p>Hello! I’m <strong>Gaurav Shukla</strong>, a passionate <strong>Android Developer</strong> with over
-          <strong>4 years of experience</strong> in native mobile development using <strong>Java</strong> and
-          <strong>Kotlin</strong>. I’ve also worked extensively with <strong>Flutter</strong> for the past <strong>1.5
+          <strong><span id="experience-years"></span> years of experience</strong> in native mobile development using <strong>Java</strong> and
+          <strong>Kotlin</strong>. I’ve also worked extensively with <strong>Flutter</strong> for the past <strong><span id="flutter-experience-years"></span>
             years</strong>, developing cross-platform applications that provide excellent user experiences.
         </p>
       </div><!-- End Section Title -->
@@ -285,7 +285,7 @@
             </div>
 
             <p class="py-2">
-              With over 4.5 years of experience, I have led teams, mentored junior developers, and delivered
+              With over <span id="experience-years-2"></span> years of experience, I have led teams, mentored junior developers, and delivered
               production-grade
               apps
               across diverse domains. I thrive on solving real-world problems through elegant, maintainable code and
@@ -471,8 +471,8 @@
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Gaurav Shukla</h4>
-              <p><em>Experienced Mobile Developer with over 4 years of expertise in Android development using Java and
-                  Kotlin, along with 1.5 years of Flutter development experience. I have a strong focus on creating
+              <p><em>Experienced Mobile Developer with over <span id="experience-years-3"></span> years of expertise in Android development using Java and
+                  Kotlin, along with <span id="flutter-experience-years-2"></span> years of Flutter development experience. I have a strong focus on creating
                   scalable and high-performance applications, including working on full-cycle app development and team
                   leadership.</em></p>
               <ul>
@@ -708,6 +708,7 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -739,6 +740,44 @@
         }
       }
     });
+  </script>
+
+  <script>
+    // Calculate and update total experience
+    const totalExperienceStartDate = new Date('2020-03-01');
+    const currentDate = new Date();
+    const totalExperienceInMillis = currentDate - totalExperienceStartDate;
+    const totalExperienceInYears = totalExperienceInMillis / (1000 * 60 * 60 * 24 * 365.25);
+
+    const experienceYearsElement = document.getElementById('experience-years');
+    if (experienceYearsElement) {
+      experienceYearsElement.textContent = totalExperienceInYears.toFixed(1);
+    }
+
+    const experienceYears2Element = document.getElementById('experience-years-2');
+    if (experienceYears2Element) {
+      experienceYears2Element.textContent = totalExperienceInYears.toFixed(1);
+    }
+
+    const experienceYears3Element = document.getElementById('experience-years-3');
+    if (experienceYears3Element) {
+      experienceYears3Element.textContent = totalExperienceInYears.toFixed(1);
+    }
+
+    // Calculate and update Flutter experience
+    const flutterExperienceStartDate = new Date('2022-03-01');
+    const flutterExperienceInMillis = currentDate - flutterExperienceStartDate;
+    const flutterExperienceInYears = flutterExperienceInMillis / (1000 * 60 * 60 * 24 * 365.25);
+
+    const flutterExperienceYearsElement = document.getElementById('flutter-experience-years');
+    if (flutterExperienceYearsElement) {
+      flutterExperienceYearsElement.textContent = flutterExperienceInYears.toFixed(1);
+    }
+
+    const flutterExperienceYears2Element = document.getElementById('flutter-experience-years-2');
+    if (flutterExperienceYears2Element) {
+      flutterExperienceYears2Element.textContent = flutterExperienceInYears.toFixed(1);
+    }
   </script>
 
 </body>
