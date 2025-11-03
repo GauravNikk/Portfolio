@@ -8,6 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -67,6 +68,10 @@
                 <div class="home-social">
                     <span class="home-social-follow">Follow Me</span>
                     <div class="home-social-links">
+                        <a href="https://dribbble.com/g-shukla" target="_blank" class="home-social-link">
+                            <i class="uil uil-dribbble"></i>
+                        </a>
+
                         <a href="https://github.com/GauravNikk/" target="_blank" class="home-social-link">
                             <i class="uil uil-github"></i>
                         </a>
@@ -119,7 +124,10 @@
             <h2 class="section-title" data-heading="My Intro">About me</h2>
 
             <div class="about-container container grid">
-                <img src="assets/img/gaurav.png" alt="" class="about-img">
+               <img src="assets/img/gaurav.png" alt="" class="about-img">
+
+
+                <!-- <img src="https://raw.githubusercontent.com/GauravNikk/Portfolio/b6f71b2b64ad26927e8a8ebd1714ebbc7a294424/assets/img/gaurav.png" alt="" class="about-img"> -->
 
                 <div class="about-data">
                     <h3 class="about-heading">Hi, I'm Gaurav Shukla, based in Varanasi, India</h3>
@@ -349,61 +357,101 @@
                 <span class="work-item" data-filter=".app">App</span>
                 <span class="work-item" data-filter=".design">Design</span>
             </div>
+           
 
             <div class="work-container container grid">
                 <div class="work-card mix web">
-                    <img src="assets/img/portfolio/app-1.jpg" alt="" class="work-img">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#work-modal-1">
+                        <!-- <img src="assets/img/driver_gill_panel.png" alt="" class="work-img"> -->
+                    </a>
                     <h3 class="work-title">DriverGill Admin Panel</h3>
-                    <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
+                    <span class="work-button" data-bs-toggle="modal" data-bs-target="#work-modal-1">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
-                    <div class="portfolio-item-details">
-                        <h3 class="details-title">Flutter Admin Panel</h3>
-                        <p class="details-description"></p>
-                        <ul class="details-info">
-                            <li>Created - <span></span></li>
-                            <li>Technologies - <span>Flutter</span></li>
-                            <li>Role - <span>Admin Panel</span></li>
-                            <li>View - <span><a href="http://admin.drivergill.com">admin.drivergill.com</a></span></li>
-                        </ul>
+                    <div class="modal fade" id="work-modal-1" tabindex="-1" aria-labelledby="work-modal-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Flutter Admin Panel</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="portfolio-item-details">
+                                        <p class="details-description"></p>
+                                        <ul class="details-info">
+                                            <li>Created - <span></span></li>
+                                            <li>Technologies - <span>Flutter</span></li>
+                                            <li>Role - <span>Admin Panel</span></li>
+                                            <li>View - <span><a href="http://admin.drivergill.com">admin.drivergill.com</a></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-2.jpg" alt="" class="work-img">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#work-modal-2">
+                        <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
+                    </a>
                     <h3 class="work-title">Ekal Arogya</h3>
-                    <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
+                    <span class="work-button" data-bs-toggle="modal" data-bs-target="#work-modal-2">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
-                    <div class="portfolio-item-details">
-                        <h3 class="details-title">Android App</h3>
-                        <p class="details-description"></p>
-                        <ul class="details-info">
-                            <li>Created - <span></span></li>
-                            <li>Technologies - <span>Android</span></li>
-                            <li>Role - <span></span></li>
-                            <li>View - <span><a href="https://play.google.com/store/apps/details?id=com.inventics.ekalarogya">Google Play</a></span></li>
-                        </ul>
+                    <div class="modal fade" id="work-modal-2" tabindex="-1" aria-labelledby="work-modal-2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Android App</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="portfolio-item-details">
+                                        <p class="details-description"></p>
+                                        <ul class="details-info">
+                                            <li>Created - <span></span></li>
+                                            <li>Technologies - <span>Android</span></li>
+                                            <li>Role - <span></span></li>
+                                            <li>View - <span><a href="https://play.google.com/store/apps/details?id=com.inventics.ekalarogya">Google Play</a></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-3.jpg" alt="" class="work-img">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#work-modal-3">
+                        <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
+                    </a>
                     <h3 class="work-title">Ekal App</h3>
-                    <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
+                    <span class="work-button" data-bs-toggle="modal" data-bs-target="#work-modal-3">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
-                    <div class="portfolio-item-details">
-                        <h3 class="details-title">Android App</h3>
-                        <p class="details-description"></p>
-                        <ul class="details-info">
-                            <li>Created - <span></span></li>
-                            <li>Technologies - <span>Android</span></li>
-                            <li>Role - <span></span></li>
-                            <li>View - <span><a href="https://play.google.com/store/apps/details?id=com.ekal.www.ekalapp">Google Play</a></span></li>
-                        </ul>
+                    <div class="modal fade" id="work-modal-3" tabindex="-1" aria-labelledby="work-modal-3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Android App</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="portfolio-item-details">
+                                        <p class="details-description"></p>
+                                        <ul class="details-info">
+                                            <li>Created - <span></span></li>
+                                            <li>Technologies - <span>Android</span></li>
+                                            <li>Role - <span></span></li>
+                                            <li>View - <span><a href="https://play.google.com/store/apps/details?id=com.ekal.www.ekalapp">Google Play</a></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-4.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Ekal Karyakarta</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -420,7 +468,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-5.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Telemedicine Doctor App</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -437,7 +485,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-6.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Spin Cycle</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -454,7 +502,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-7.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Laundrology</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -471,7 +519,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-8.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Salary Slip Employee</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -488,7 +536,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-9.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Salary Slip Employer</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -505,7 +553,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-10.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Aajeevan Sang</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -522,7 +570,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-11.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">DriverGill Sarthi</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -539,7 +587,7 @@
                 </div>
 
                 <div class="work-card mix app">
-                    <img src="assets/img/portfolio/app-12.jpg" alt="" class="work-img">
+                    <!-- <img src="assets/img/placeholder.jpg" alt="" class="work-img"> -->
                     <h3 class="work-title">Driver Gill</h3>
                     <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
 
@@ -562,7 +610,7 @@
                 <div class="portfolio-popup-content grid">
                     <span class="portfolio-popup-close"><i class="uil uil-times"></i></span>
                     <div class="pp-thumbnail">
-                        <img src="https://i.postimg.cc/sXLjnC5p/work-2.png" alt="" class="portfolio-popup-img">
+                        <img src="assets/img/placeholder.jpg" alt="" class="portfolio-popup-img">
                     </div>
 
                     <div class="portfolio-popup-info">
@@ -710,7 +758,7 @@
             </div>
         </section>
 
-        <section class="testimonials section" style="display: none;">
+        <section class="testimonials section" id="testimonials">
             <h2 class="section-title" data-heading="My clients say">Testimonials</h2>
 
             <div class="testimonials-container container swiper">
@@ -722,7 +770,7 @@
                         <p class="testimonial-description">Working with Miriam was an absolute pleasure from start to finish. They took the time to truly understand our business needs and translated them into a stunning and highly functional website</p>
                         <h3 class="testimonial-date">March 30, 2025</h3>
                         <div class="testimonial-profile">
-                            <img src="https://i.postimg.cc/MTr9j4Yn/client1.jpg" alt="" class="testimonial-profile-img">
+                            <img src="assets/img/placeholder.jpg" alt="" class="testimonial-profile-img">
 
                             <div class="testimonial-profile-data">
                                 <span class="testimonial-profile-name">Chen Xiuying</span>
@@ -738,7 +786,7 @@
                         <p class="testimonial-description">Miriam truly understood our business needs through her modern and sleek design, making a site incredibly user-friendly. With her help, we had a significant increase in engagement and customer sales</p>
                         <h3 class="testimonial-date">January 18, 2025</h3>
                         <div class="testimonial-profile">
-                            <img src="https://i.postimg.cc/wvV7f8rB/client2.jpg" alt="" class="testimonial-profile-img">
+                            <img src="assets/img/placeholder.jpg" alt="" class="testimonial-profile-img">
 
                             <div class="testimonial-profile-data">
                                 <span class="testimonial-profile-name">Joshua Middletown</span>
@@ -754,7 +802,7 @@
                         <p class="testimonial-description">I was blown away by the website Miriam created for my business! Miriam crafted a incredibly user-friendly, that allows our customers to access information on any device. Since the launch, I've seen a significant increase in inquiries and bookings</p>
                         <h3 class="testimonial-date">November 29, 2024</h3>
                         <div class="testimonial-profile">
-                            <img src="https://i.postimg.cc/pdP9DL0S/client3.jpg" alt="" class="testimonial-profile-img">
+                            <img src="assets/img/placeholder.jpg" alt="" class="testimonial-profile-img">
 
                             <div class="testimonial-profile-data">
                                 <span class="testimonial-profile-name">Melanie Stone</span>
@@ -788,41 +836,47 @@
                             <span class="contact-button">Write me <i class="uil uil-arrow-right contact-button-icon"></i></span>
                         </div>
 
-                        <div class="contact-card">
-                            <i class="uil uil-facebook-messenger contact-card-icon"></i>
-                            <h3 class="contact-card-title">Messenger</h3>
-                            <span class="contact-card-data">user.fb123</span>
-                            <span class="contact-button">Write me <i class="uil uil-arrow-right contact-button-icon"></i></span>
-                        </div>
+
                     </div>
                 </div>
 
                 <div class="contact-content">
-                    <form action="" class="contact-form">
+                    <form action="forms/contact.php" method="post" class="contact-form php-email-form">
                         <div class="input-container">
-                            <input type="text" class="input">
+                            <input type="text" name="username" class="input">
                             <label for="">Username</label>
                             <span>Username</span>
                         </div>
     
                         <div class="input-container">
-                            <input type="email" class="input">
+                            <input type="email" name="email" class="input">
                             <label for="">Email</label>
                             <span>Email</span>
                         </div>
     
                         <div class="input-container">
-                            <input type="tel" class="input">
+                            <input type="tel" name="phone" class="input">
                             <label for="">Phone</label>
                             <span>Phone</span>
                         </div>
     
+                        <div class="input-container">
+                            <input type="text" name="subject" class="input">
+                            <label for="">Subject</label>
+                            <span>Subject</span>
+                        </div>
+
                         <div class="input-container textarea">
-                            <textarea name="" id="" class="input"></textarea>
+                            <textarea name="message" id="" class="input"></textarea>
                             <label for="">Message</label>
                             <span>Message</span>
                         </div>
     
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
                         <button type="submit" class="button"><i class="uil uil-navigator button-icon"></i>Send Message</button>
                     </form>
                 </div>
@@ -851,6 +905,10 @@
                     </ul>
 
                     <div class="footer-socials">
+                        <a href="https://dribbble.com/g-shukla" target="_blank" class="footer-social">
+                            <i class="uil uil-dribbble"></i>
+                        </a>
+
                         <a href="https://www.facebook.com" target="_blank" class="footer-social">
                             <i class="uil uil-facebook-f"></i>
                         </a>
@@ -865,13 +923,16 @@
                     </div>
                 </div>
 
-                <p class="footer-copy">&#169; <a href="https://codepen.io/leonam-silva-de-souza">ULTRA CODE</a>. All rights reserved</p>
+                <p class="footer-copy">&#169; Gaurav Shukla. All rights reserved</p>
             </div>
         </footer>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/js/app-icons.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

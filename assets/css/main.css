@@ -140,11 +140,20 @@ button { cursor: pointer; }
 .btn-share { position: absolute; bottom: 1.8rem; left: 0; right: 0; text-align: center; cursor: pointer; }
 .social-share { font-size: 1.5rem; }
 
+.about-img {
+  width: 90%;          /* or a fixed width like 300px */
+  height: 500px;        /* fixed height crop area */
+  object-fit: cover;    /* crop instead of stretch */
+  object-position: 100% 25%; /* 👈 center horizontally, 35% from top */
+  border-radius: 10px;  /* optional */
+}
+
+
 /* Main - Home */
 
 .main { margin-left: 100px; }
-/* .home { background: url('https://i.postimg.cc/DZxD1xGL/home-bg.jpg'); background-size: cover; background-position: center center; height: 100vh; } */
-.home { background: url('https://raw.githubusercontent.com/GauravNikk/Portfolio/refs/heads/main/assets/img/gauravbg.png'); background-size: cover; background-position: center center; height: 100vh; }
+.home { background: url('https://i.postimgg.cc/DZxD1xGL/home-bgg.jpgg'); background-size: cover; background-position: center center; height: 100vh; }
+/* .home { background: url('https://raw.githubusercontent.com/GauravNikk/Portfolio/refs/heads/main/assets/img/gauravbg.png'); background-size: cover; background-position: center center; height: 100vh; } */
 
 .home-container { position: relative; height: 100%; align-items: center; }
 .home-social { position: absolute; top: 1.8rem; left: 0; display: flex; align-items: center; column-gap: 3.5rem; }
