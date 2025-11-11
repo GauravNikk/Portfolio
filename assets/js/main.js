@@ -166,3 +166,40 @@ if(navClose) {
         navMenu.classList.remove('show-sidebar');
     })
 }
+
+// Function to calculate experience
+function calculateExperience(startDate) {
+    const start = new Date(startDate);
+    const now = new Date();
+    let years = now.getFullYear() - start.getFullYear();
+    let months = now.getMonth() - start.getMonth();
+    if (months < 0 || (months === 0 && now.getDate() < start.getDate())) {
+        years--;
+    }
+    return years;
+}
+
+// Android experience
+const androidStartDate = '2020-03-01';
+const androidExpElement = document.getElementById('android-exp');
+const androidExpModalElement = document.getElementById('android-exp-modal');
+const androidYears = calculateExperience(androidStartDate);
+if (androidExpElement) {
+    androidExpElement.textContent = `More than ${androidYears} years`;
+}
+if (androidExpModalElement) {
+    androidExpModalElement.textContent = androidYears;
+}
+
+
+// Flutter experience
+const flutterStartDate = '2022-06-01';
+const flutterExpElement = document.getElementById('flutter-exp');
+const flutterExpModalElement = document.getElementById('flutter-exp-modal');
+const flutterYears = calculateExperience(flutterStartDate);
+if (flutterExpElement) {
+    flutterExpElement.textContent = `More than ${flutterYears} years`;
+}
+if (flutterExpModalElement) {
+    flutterExpModalElement.textContent = flutterYears;
+}
