@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   keywords: ["Mobile Engineer", "Android Developer", "Flutter Developer", "iOS Developer", "Kotlin", "Swift", "Agora", "Real-Time Systems"],
   authors: [{ name: "Gaurav Shukla" }],
   icons: {
-    icon: "/gaurav.jpg",
-    shortcut: "/gaurav.jpg",
-    apple: "/gaurav.jpg",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "Gaurav Shukla — Senior Mobile Application Engineer",
