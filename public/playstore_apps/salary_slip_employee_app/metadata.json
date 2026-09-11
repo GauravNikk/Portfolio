@@ -1,0 +1,22 @@
+{
+    "name": "Salary Slip Employee App",
+    "package": "com.salaryslip.employee",
+    "developer": "SIMPEL TECHLABS",
+    "developer_id": "6259935421493337460",
+    "description": "Overview\r\n\r\nThe Employee Management App is a comprehensive solution designed for organizations to streamline employee attendance, task management, and leave requests. The application allows employees to punch in and out, track attendance, apply for leaves, view their attendance history, and manage daily tasks efficiently — all from a single platform.\r\n\r\nThis app simplifies HR processes, increases transparency, and ensures smooth communication between employees and management.\r\n\r\nKey Features\r\n\r\nPunch In / Punch Out\r\n\r\nEmployees can mark their entry and exit times using the punch-in and punch-out system.\r\n\r\nTracks working hours automatically.\r\n\r\nSupports location-based tracking if required (GPS enabled).\r\n\r\nAttendance Management\r\n\r\nView real-time attendance records.\r\n\r\nMonthly attendance summaries.\r\n\r\nTrack leaves, holidays, and absent days.\r\n\r\nExport attendance reports if needed.\r\n\r\nLeave Management\r\n\r\nApply for leaves directly through the app.\r\n\r\nView leave balances and approval status.\r\n\r\nReceive notifications on leave approval or rejection.\r\n\r\nTask Management\r\n\r\nAdd, view, and update tasks assigned by management.\r\n\r\nMark tasks as complete or pending.\r\n\r\nOrganize tasks by priority or due date.\r\n\r\nNotifications & Alerts\r\n\r\nPush notifications for task assignments, leave approvals, and important announcements.\r\n\r\nReminders for punch-in/out times or pending tasks.\r\n\r\nProfile Management\r\n\r\nView and update personal information.\r\n\r\nAccess payroll or salary slip details (if integrated with backend payroll system).\r\n\r\nSecure & Reliable\r\n\r\nEmployee authentication for privacy and security.\r\n\r\nRole-based access to ensure only authorized actions are performed.\r\n\r\nCloud or server-based storage for attendance and task data.\r\n\r\nBenefits\r\n\r\nReduces manual tracking of attendance and leave.\r\n\r\nImproves employee accountability and productivity.\r\n\r\nProvides transparent communication between employees and HR/management.\r\n\r\nEasy to use interface for employees of all technical levels.\r\n\r\nUse Cases\r\n\r\nDaily attendance tracking for organizations.\r\n\r\nManaging leave requests and approvals.\r\n\r\nAssigning and monitoring tasks for employees.\r\n\r\nReporting attendance and leave statistics to HR and management.\r\n\r\nTechnical Highlights\r\n\r\nBuilt with Flutter for cross-platform support.\r\n\r\nIntegrated with Firebase for notifications, authentication, and cloud storage.\r\n\r\nSupports real-time updates and offline access.\r\n\r\nScalable to accommodate multiple departments or branches.",
+    "summary": "Employee Management Application",
+    "rating": null,
+    "ratings": null,
+    "installs": "1,000+",
+    "icon": "https://play-lh.googleusercontent.com/yx2EntHzzGhnBz_GkFajIvQuNrfhedjHiU7JFgEICGXMSNJG43p2cGBaDGQygS0aXT5lGkJPNfKlHZ4XbdIRoTA",
+    "screenshots": [
+        "https://play-lh.googleusercontent.com/oLm34k8sYnfy50G3zQKkbDVwFL06hltuiWL6wzobX8h5HQ-k6HNUjSTGRel7wh3gozSDQj1iXGacitHp_kNdsg",
+        "https://play-lh.googleusercontent.com/r9xJvZ5YQvUV--fLPxncfXOPEk4U97jqf_Q54CCY8cvTv-QwokdNE-eo0UiGFI5AgwEhklg0c3j8KkNGbPIIdFE",
+        "https://play-lh.googleusercontent.com/DuNsWw_NMzHm3YJxZrD6OakCIEwns3kQ52XwEdkAmDEc34MXpy_96QZKloFiVu5wzqv8o_sj1-VNaDy6Aznq8Q",
+        "https://play-lh.googleusercontent.com/YzUElE9UyL48gk-CDB1O4KVTUO9EzpCEt2lYOdpP9D5FvbK9ur9-yqlBoxm56PV7SuxwMqV-eyTRkvzT0Svssw",
+        "https://play-lh.googleusercontent.com/9N_K_qIOI7TdvQzKxKl-NQaZa0T985GLQIimNqKmJnQCskssqS-hdVEPbq9J7IMBDNxhUNkkkL5NEOZbpA2HdQ",
+        "https://play-lh.googleusercontent.com/newGWlbl0G_NDCNgz_VPORlftw-WNOUpXkEuFhKjJbuv1EnlLdpXPk495p_nlRIll-YCNcyBP_5iEyKZfTHO"
+    ],
+    "play_store": "https://play.google.com/store/apps/details?id=com.salaryslip.employee",
+    "developer_page": null
+}

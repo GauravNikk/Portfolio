@@ -1,0 +1,19 @@
+{
+    "name": "Telemedicine Doctor",
+    "package": "com.ispl.telemedicineDoctorApp",
+    "developer": "Ekal Vidyalaya",
+    "developer_id": "Ekal+Vidyalaya",
+    "description": "Ekal empowers rural India with education and healthcare. Its Telemedicine campaign connects doctors and remote patients via a mobile app, providing vital medical advice and support to underserved communitie.",
+    "summary": "Ekal Arogya Telemedicine Doctor",
+    "rating": null,
+    "ratings": null,
+    "installs": "500+",
+    "icon": "https://play-lh.googleusercontent.com/dVAkdCfuy35FeRg7BqSXGi7AW3nbA8lxi9xI5g_O_qHvaKYbQcvVzuIcsvtZ5qlS3uTqgcitrfkvbBrhrRXTnYk",
+    "screenshots": [
+        "https://play-lh.googleusercontent.com/CmItH3EAeB2Bvvj9Us84V0xkrOarLeURc4TBHLH8PjR6MOqm-LzsPhOb6f8qb2GeGzQNR4zvxWAZk9SOZ7Omog",
+        "https://play-lh.googleusercontent.com/QEOeCaVNlx4y7-mQf4EWNQWJKzMwyJYxd1O5PNLdTamfcKzF_g-iZelPl8yLtCQK4dQzK7J8HHlJaELexJnFyA",
+        "https://play-lh.googleusercontent.com/ht7R3iouJ86y3hwXIHXvfxFJGET-862FVFU6OX1acxsrlB_Nd_hr-GID1XW8v-0rOHw3dSN66gvh6VwRIxVR"
+    ],
+    "play_store": "https://play.google.com/store/apps/details?id=com.ispl.telemedicineDoctorApp",
+    "developer_page": "https://play.google.com/store/apps/developer?id=Ekal+Vidyalaya"
+}

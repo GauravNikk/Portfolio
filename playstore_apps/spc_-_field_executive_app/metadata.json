@@ -1,0 +1,19 @@
+{
+    "name": "SPC - Field executive app",
+    "package": "com.ispl.spc_driver",
+    "developer": "Cyclone Technologies",
+    "developer_id": "Cyclone+Technologies",
+    "description": "SPC – Field Executive App is the official app for Spin Cycles drivers and field executives. It helps manage daily laundry pickups, deliveries, and service orders efficiently. View assigned tasks, customer details, locations, and order status in real time. Update pickups and deliveries instantly, reduce manual work, and ensure accurate doorstep service.\r\n\r\nDesigned for speed, reliability, and ease of use, the app supports smooth operations for laundry, dry cleaning, repairs, and cobbler services.",
+    "summary": "Field executive app for Spin Cycles to handle laundry pickups and deliveries.",
+    "rating": null,
+    "ratings": null,
+    "installs": "600+",
+    "icon": "https://play-lh.googleusercontent.com/FdiVmB7uArdZ2C85MZg2u6WK-OuOpURb5Ivi1SEFj4ePC3Auxan9Ydam5oxJzUWEz8drX8Y-EJLs1By-XdT7",
+    "screenshots": [
+        "https://play-lh.googleusercontent.com/FX17SxsT98b738WiYb9G5vxvJv0yrT9neNh7l8Um9vhYWtagtubcXHPi4Msl3K2iO1SVXu47-yqDBhqbIQfuGnc",
+        "https://play-lh.googleusercontent.com/UDSSwun_lev48f032NDVyBTfhQmpAqBwC7Oj_ER5iqwgY7EZ8UF-oahh2MbmSuB_PbCoZuuWw1FtYsxGCG6MgA",
+        "https://play-lh.googleusercontent.com/XiDv0oA0TUOWPnC6mZUETPEF2C_ojWeF5k1Aurg1W3vNfwwzZP-a7IyYu1-FarDGwmP4QgchdJt4Z_B36gtsG5g"
+    ],
+    "play_store": "https://play.google.com/store/apps/details?id=com.ispl.spc_driver",
+    "developer_page": "https://play.google.com/store/apps/developer?id=Cyclone+Technologies"
+}

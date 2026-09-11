@@ -1,0 +1,19 @@
+{
+    "name": "Mittal Clothing",
+    "package": "com.simpel.mittal.garmentfactory",
+    "developer": "SIMPEL TECHLABS",
+    "developer_id": "6259935421493337460",
+    "description": "Mittal Clothing is an app made to help field staff check the quality of clothes in different factories. Each user can see the factories assigned to them.\r\n\r\n• Secure login to access assigned factories.\r\n• Navigate to factory location using Google Maps.\r\n• Inspect and record cloth quality on-site.\r\n• Update personal details through an easy profile section.\r\n• Punch-in and punch-out for attendance record.\r\n• View assigned factories, inspection history, and performance.",
+    "summary": "App designed to help field staff to inspect cloth quality.",
+    "rating": null,
+    "ratings": null,
+    "installs": "500+",
+    "icon": "https://play-lh.googleusercontent.com/TXP0RT_b3VftALrbxrbw0avtsXbLBCSaY4Tm_rhn5psMq8jOPjQ41ClgzQRueQhYE3_mNlIlS2vITP5RJaByAQ",
+    "screenshots": [
+        "https://play-lh.googleusercontent.com/lZg4YRmqibbciqCb9J4CNcNplY8FsDpFQ97_O-39jOdQqQv8lAZM9MpURPTZRrZhyYsJSaCmF8IDxT5jYoV-lA",
+        "https://play-lh.googleusercontent.com/XTF1Bx6iCqpGfvHuKD2uLpDfSiTJa3lthDdZ0b03CIpb5ie1Ghe_8xShwgKuToc8NTLUEbzeWTWgbyQM3WBoSg",
+        "https://play-lh.googleusercontent.com/jDqVFnIG35B9cdchBABPw1NGZxtkxbGUs3tJF3yhZuKeW15sZE219KIzki3jIXO6yuUfWX-_-WqXOxR8ubX2GQ"
+    ],
+    "play_store": "https://play.google.com/store/apps/details?id=com.simpel.mittal.garmentfactory",
+    "developer_page": null
+}
